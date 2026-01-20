@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 from utils.file_handler import read_sales_data, parse_transactions, validate_and_filter
 from utils.data_processor import calculate_total_revenue
@@ -123,4 +124,5 @@ def main():
         print("=" * 40)
 
 if __name__ == "__main__":
+
     main()
